@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Project5504</Database>
+    <Server>LAPTOP-2BDU5S38\CITS5504_2301972</Server>
+    <ConnectionString>Data Source=LAPTOP-2BDU5S38\CITS5504_2301972;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>DE1chtSFpyirMnhKp8P7oeqOgvE=1/04/2021 8:10:51 PM1/04/2021 8:10:50 PM</TimeStamp>
+        <ID>
+          <String>Project5504</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>PzqeKIuVi3RGzlL7v1kj3jCZaEc=1/04/2021 8:11:26 PM1/04/2021 8:11:25 PM</TimeStamp>
+        <ID>
+          <String>Project5504</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yE7oeQLiGjpcL2nxxSUNvpp6jck=1/04/2021 8:31:42 PM1/04/2021 8:12:36 PM</TimeStamp>
+        <ID>
+          <String>Life Expectancy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>27nTtQiAm6yjNG0Zi5ic/UHGVsM=1/04/2021 8:34:19 PM1/04/2021 8:12:36 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UDgn97kzWq0ARu7tTzao13hpTgc=1/04/2021 8:18:01 PM1/04/2021 8:12:36 PM</TimeStamp>
+        <ID>
+          <String>Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>faQz3Dmq7lMd8JEcAOAskMV7MFM=1/04/2021 8:32:39 PM1/04/2021 8:12:36 PM</TimeStamp>
+        <ID>
+          <String>Country Size</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>v997R2RoSHU6W2MgJft8qJE6UZU=2/04/2021 3:14:14 PM1/04/2021 8:12:36 PM5RIxhOrIOkV2q7FVu2KnRJYekPI=2/04/2021 3:10:01 PM1/04/2021 8:12:36 PM</TimeStamp>
+        <ID>
+          <String>Project5504</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>/H1aiwpPhRv7HsijrH95ceOoXFo=1/04/2021 8:07:59 PM1/04/2021 8:07:58 PM</TimeStamp>
+      <ID>
+        <String>Project5504</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-04-02T07:14:15.9Z</LastDeployed>
+</DeploymentSnapshot>
